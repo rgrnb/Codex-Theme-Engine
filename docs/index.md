@@ -20,6 +20,10 @@
 
 - [Technical Research](./Research/)
 
+## Technical Documentation
+
+- [Technology Selection](./Technical/)
+  
 ## Roadmap
 
 - V1 Dynamic Background Engine
