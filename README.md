@@ -1,123 +1,136 @@
-# Codex Theme Engine
+codexpaper
 
-A customizable visual theme engine for Codex Desktop.
+Codex Theme Engine for Codex Desktop.
 
-## Overview
+codexpaper is a dynamic background and theme engine designed for Codex
+Windows Desktop.
 
-Codex Theme Engine is an open-source project designed to provide a customizable visual experience for Codex Windows Desktop.
+The project is based on the Codex Theme Engine architecture and aims to
+provide a customizable visual experience similar to Wallpaper Engine and
+VS Code Themes.
 
-The project aims to extend Codex with personalized themes, allowing users to customize their development environment through custom backgrounds and theme packages.
+------------------------------------------------------------------------
 
-It allows users to customize Codex with:
+Overview
 
-- Custom image backgrounds
-- Dynamic video backgrounds
-- Theme packages
-- Personalized visual environments
+codexpaper allows users to customize Codex Desktop with personalized
+visual environments.
 
-The long-term goal is to build a theme ecosystem similar to VS Code Themes and Wallpaper Engine.
+The project focuses on providing:
 
----
+-   Custom image backgrounds
+-   Dynamic video backgrounds
+-   Background rendering engine
+-   Theme management system
+-   Personalized Codex visual experience
 
-## Features
+The long-term goal is to build a complete theme ecosystem for Codex
+Desktop.
 
-### V1.0 - Background Engine
+------------------------------------------------------------------------
+
+Project Structure
+
+codexpaper is the product name.
+
+Codex Theme Engine is the underlying technical architecture.
+
+Architecture relationship:
+
+codexpaper | └── Codex Theme Engine | ├── Background Engine ├── Theme
+Manager ├── Media Renderer └── Codex Adapter
+
+------------------------------------------------------------------------
+
+Features
+
+V1.0 - Dynamic Background Engine
 
 Current development goal:
 
-- Custom background loading
-- Image wallpaper support
-- Full-window background rendering
-- User-defined visual themes
+-   Custom background loading
+-   Image wallpaper support
+-   Video background support
+-   Full-window background rendering
+-   Dynamic background playback
+-   User-defined visual themes
 
+The goal of V1.0 is to verify the feasibility of providing Wallpaper
+Engine-like dynamic background capabilities for Codex Desktop.
 
-### V2.0 - Theme System
+------------------------------------------------------------------------
+
+V2.0 - Theme System
 
 Planned features:
 
-- Standard theme package format
-- Theme import/export
-- Dynamic video background support
-- Theme configuration management
+-   Standard theme package format
+-   Theme import/export
+-   Theme configuration management
+-   Theme preview system
 
+------------------------------------------------------------------------
 
-### V3.0 - Theme Ecosystem
+V3.0 - Theme Ecosystem
 
 Future plans:
 
-- Theme sharing
-- Online theme marketplace
-- Community theme ecosystem
-- Creator tools
+-   Theme sharing
+-   Online theme marketplace
+-   Community theme ecosystem
+-   Creator tools
 
+------------------------------------------------------------------------
 
----
-
-## Architecture
+Architecture
 
 The project adopts an independent theme engine architecture.
 
 Core modules:
 
-- Theme Manager
-- Background Engine
-- Resource Loader
-- Theme Parser
-- Codex Adapter
+-   Theme Manager
+-   Background Engine
+-   Media Renderer
+-   Resource Loader
+-   Theme Parser
+-   Codex Adapter
 
+Design principles:
 
-The design principle is:
+-   No modification of Codex official installation files
+-   Runtime-based theme extension
+-   Independent resource management
+-   Expandable architecture for future versions
 
-- No modification of Codex official installation files
-- Runtime-based theme extension
-- Expandable architecture for future features
+------------------------------------------------------------------------
 
+Development Roadmap
 
----
+Phase 1: Codex architecture analysis and technology validation
 
-## Documentation
+Phase 2: Background Engine prototype
 
-### Product Requirement Document (PRD)
+Phase 3: Image and video background implementation
 
-docs/PRD/Codex-Theme-Engine-PRD-v1.0.docx
+Phase 4: Performance optimization
 
+Phase 5: Theme system development
 
-### Architecture Design
+Phase 6: Theme ecosystem construction
 
-Coming soon
+------------------------------------------------------------------------
 
+Documentation
 
-### Development Plan
+Project documents:
 
-Coming soon
+-   Product Requirement Document (PRD)
+-   Technical Architecture Document
+-   V1 Development Plan
+-   Technical Research Document
 
+------------------------------------------------------------------------
 
----
+License
 
-## Roadmap
-
-PRD
- ↓
-Architecture Design
- ↓
-Development Plan
- ↓
-V1 Background Engine
- ↓
-V2 Theme System
- ↓
-V3 Theme Ecosystem
-
-
----
-
-## Project Status
-
-🚧 Under Development
-
-
----
-
-## License
-
-To be determined.
+Open source project.
